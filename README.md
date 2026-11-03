@@ -22,7 +22,7 @@ This repository contains the MATLAB framework developed for designing and simula
 ### 4. CR3BP Transfer & Shooting Method (`main_bonus_CR3BP.m`)
 * **High-Fidelity Targeting:** Implemented a numerical Shooting Method (`fsolve` + `ode45`) within the non-dimensionalized Earth-Moon CR3BP to compensate for third-body radial and phase errors in the standard Hohmann transfer.
 * **Numerical Stability:** Monitored the Jacobi Constant ($C$) throughout the integration to guarantee energy conservation within machine precision bounds.
-`![CR3BP Transfer](./images/cr3bp_plot.png)`
+`![CR3BP Transfer](./images/Point 3 – Hohmann Transfer.png)`
 
 ### 5. Robotic Berthing Dynamics (`main_part4.m`)
 * **Spatial Kinematics:** Modeled a 5R Mothership robotic arm using Homogeneous Transformation Matrices (HTM) and analytically derived the Geometric and System Jacobians.
